@@ -7,7 +7,7 @@ TrafficSystem.Config = (() => {
     'use strict';
 
     const TOMTOM = {
-        API_KEY: 'cquboWlSbWRVqIlXB2y8Cz41VZsL5Jyg',
+        API_KEY: 'Your Api Key Here',
         BASE: 'https://api.tomtom.com',
         TRAFFIC_FLOW: '/traffic/services/4/flowSegmentData/absolute/10/',
         TRAFFIC_INCIDENTS: '/traffic/services/5/incidentDetails',
