@@ -1,0 +1,129 @@
+{
+  "feature_cols_travel_time": [
+    "start_area_enc",
+    "end_area_enc",
+    "distance_km",
+    "time_of_day_enc",
+    "day_of_week_enc",
+    "weather_condition_enc",
+    "traffic_density_level_enc",
+    "road_type_enc",
+    "average_speed_kmph",
+    "is_peak",
+    "is_weekend",
+    "is_rain",
+    "is_highway",
+    "speed_distance_ratio"
+  ],
+  "feature_cols_congestion": [
+    "distance_km",
+    "time_of_day_enc",
+    "day_of_week_enc",
+    "weather_condition_enc",
+    "road_type_enc",
+    "average_speed_kmph",
+    "is_peak",
+    "is_weekend",
+    "is_rain",
+    "is_highway",
+    "speed_distance_ratio",
+    "congestion_score"
+  ],
+  "feature_cols_signal": [
+    "distance_km",
+    "time_of_day_enc",
+    "day_of_week_enc",
+    "weather_condition_enc",
+    "road_type_enc",
+    "average_speed_kmph",
+    "traffic_density_enc",
+    "is_peak",
+    "is_weekend",
+    "is_rain",
+    "congestion_score",
+    "demand_ratio"
+  ],
+  "encoders": {
+    "start_area": {
+      "AIIMS": 0,
+      "Chandni Chowk": 1,
+      "Civil Lines": 2,
+      "Connaught Place": 3,
+      "Dwarka": 4,
+      "Greater Kailash": 5,
+      "Hauz Khas": 6,
+      "IGI Airport": 7,
+      "Janakpuri": 8,
+      "Kalkaji": 9,
+      "Karol Bagh": 10,
+      "Lajpat Nagar": 11,
+      "Mayur Vihar": 12,
+      "Model Town": 13,
+      "Nehru Place": 14,
+      "Noida Sector 18": 15,
+      "Okhla": 16,
+      "Pitampura": 17,
+      "Preet Vihar": 18,
+      "Punjabi Bagh": 19,
+      "Rajouri Garden": 20,
+      "Rohini": 21,
+      "Saket": 22,
+      "Shahdara": 23,
+      "Vasant Kunj": 24
+    },
+    "end_area": {
+      "AIIMS": 0,
+      "Chandni Chowk": 1,
+      "Civil Lines": 2,
+      "Connaught Place": 3,
+      "Dwarka": 4,
+      "Greater Kailash": 5,
+      "Hauz Khas": 6,
+      "IGI Airport": 7,
+      "Janakpuri": 8,
+      "Kalkaji": 9,
+      "Karol Bagh": 10,
+      "Lajpat Nagar": 11,
+      "Mayur Vihar": 12,
+      "Model Town": 13,
+      "Nehru Place": 14,
+      "Noida Sector 18": 15,
+      "Okhla": 16,
+      "Pitampura": 17,
+      "Preet Vihar": 18,
+      "Punjabi Bagh": 19,
+      "Rajouri Garden": 20,
+      "Rohini": 21,
+      "Saket": 22,
+      "Shahdara": 23,
+      "Vasant Kunj": 24
+    },
+    "time_of_day": {
+      "Afternoon": 0,
+      "Evening Peak": 1,
+      "Morning Peak": 2,
+      "Night": 3
+    },
+    "day_of_week": {
+      "Weekday": 0,
+      "Weekend": 1
+    },
+    "weather_condition": {
+      "Clear": 0,
+      "Fog": 1,
+      "Heatwave": 2,
+      "Rain": 3
+    },
+    "traffic_density_level": {
+      "High": 0,
+      "Low": 1,
+      "Medium": 2,
+      "Very High": 3
+    },
+    "road_type": {
+      "Highway": 0,
+      "Inner Road": 1,
+      "Main Road": 2
+    }
+  }
+}

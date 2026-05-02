@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+env.bak/
+venv.bak/
+
+# Project specifics
+*.mp4
+*.webm
+*.part
+.DS_Store
+.vscode/
+.idea/
+
+# Downloaded videos/models cache
+backend/cam_*.mp4
+yolov8n.pt
+
+# Ignore hidden gemini folders
+.gemini/
